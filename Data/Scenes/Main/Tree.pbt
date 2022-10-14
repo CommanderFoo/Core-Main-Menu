@@ -15,7 +15,7 @@ Objects {
     }
   }
   ChildIds: 9222956154565113499
-  ChildIds: 9701078235813878198
+  ChildIds: 5549686742297646317
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,7 +35,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9701078235813878198
+  Id: 5549686742297646317
   Name: "Main Menu"
   Transform {
     Scale {
@@ -45,117 +45,36 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:MenuOffset"
-      Float: 25
-    }
-    Overrides {
-      Name: "cs:EnableCursor"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:NormalColor"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:HoveredColor"
-      Color {
-        R: 1
-        G: 0.806666613
-        B: 0.594
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:NormalFontSize"
-      Int: 50
-    }
-    Overrides {
-      Name: "cs:HoverFontSize"
-      Int: 60
-    }
-    Overrides {
-      Name: "cs:FadeInSpeed"
-      Float: 3
-    }
-    Overrides {
-      Name: "cs:FadeOutSpeed"
-      Float: 3
-    }
-    Overrides {
-      Name: "cs:DisableMovement"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:MenuOffset:tooltip"
-      String: "Offset between each menu item."
-    }
-    Overrides {
-      Name: "cs:EnableCursor:tooltip"
-      String: "If enabled, then the cursor will be visible when the menu is open."
-    }
-    Overrides {
-      Name: "cs:NormalColor:tooltip"
-      String: "Menu option color."
-    }
-    Overrides {
-      Name: "cs:HoveredColor:tooltip"
-      String: "Menu option color when hovering over it."
-    }
-    Overrides {
-      Name: "cs:NormalFontSize:tooltip"
-      String: "Default menu option font size."
-    }
-    Overrides {
-      Name: "cs:HoverFontSize:tooltip"
-      String: "Hovered menu option font size."
-    }
-    Overrides {
-      Name: "cs:FadeInSpeed:tooltip"
-      String: "The speed the menu will fade in."
-    }
-    Overrides {
-      Name: "cs:DisableMovement:tooltip"
-      String: "If enabled the player will not be able to move until the menu is closed."
-    }
-    Overrides {
-      Name: "cs:FadeOutSpeed:tooltip"
-      String: "The speed the menu fades out."
-    }
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14986206788698893062
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Main Menu"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4621944269964116896
+    }
   }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Main Menu"
-  }
-  InstanceHistory {
-    SelfId: 9701078235813878198
-    SubobjectId: 14986206788698893062
-    InstanceId: 5549686742297646317
-    TemplateId: 4621944269964116896
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9222956154565113499

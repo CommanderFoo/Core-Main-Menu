@@ -93,11 +93,15 @@ Assets {
           }
           Overrides {
             Name: "cs:FadeInSpeed:tooltip"
-            String: "The speed the menu will fade out."
+            String: "The speed the menu will fade in."
           }
           Overrides {
             Name: "cs:DisableMovement:tooltip"
             String: "If enabled the player will not be able to move until the menu is closed."
+          }
+          Overrides {
+            Name: "cs:FadeOutSpeed:tooltip"
+            String: "The speed the menu fades out."
           }
         }
         Collidable_v2 {
